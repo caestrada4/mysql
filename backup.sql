@@ -104,7 +104,7 @@ CREATE TABLE `asignatura` (
   KEY `id_grado` (`id_grado`),
   CONSTRAINT `asignatura_ibfk_1` FOREIGN KEY (`id_profesor`) REFERENCES `profesor` (`id_profesor`),
   CONSTRAINT `asignatura_ibfk_2` FOREIGN KEY (`id_grado`) REFERENCES `grado` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=84 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=85 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -196,6 +196,7 @@ INSERT INTO `asignatura` VALUES (80,'Biotecnología vegetal',6,'obligatoria',3,2
 INSERT INTO `asignatura` VALUES (81,'Genómica y proteómica',4.5,'obligatoria',3,2,NULL,7);
 INSERT INTO `asignatura` VALUES (82,'Procesos biotecnológicos',6,'obligatoria',3,2,NULL,7);
 INSERT INTO `asignatura` VALUES (83,'Técnicas instrumentales avanzadas',4.5,'obligatoria',3,2,NULL,7);
+INSERT INTO `asignatura` VALUES (84,'Fisica de particulas',6,'obligatoria',3,2,3,7);
 /*!40000 ALTER TABLE `asignatura` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -385,6 +386,7 @@ INSERT INTO `profesor` VALUES (17,4);
 INSERT INTO `profesor` VALUES (18,5);
 INSERT INTO `profesor` VALUES (13,6);
 INSERT INTO `profesor` VALUES (20,6);
+INSERT INTO `profesor` VALUES (24,6);
 /*!40000 ALTER TABLE `profesor` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -397,4 +399,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-07-05 12:36:39
+-- Dump completed on 2023-07-05 12:56:47
