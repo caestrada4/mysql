@@ -104,7 +104,7 @@ CREATE TABLE `asignatura` (
   KEY `id_grado` (`id_grado`),
   CONSTRAINT `asignatura_ibfk_1` FOREIGN KEY (`id_profesor`) REFERENCES `profesor` (`id_profesor`),
   CONSTRAINT `asignatura_ibfk_2` FOREIGN KEY (`id_grado`) REFERENCES `grado` (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=85 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=86 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -197,6 +197,7 @@ INSERT INTO `asignatura` VALUES (81,'Genómica y proteómica',4.5,'obligatoria',
 INSERT INTO `asignatura` VALUES (82,'Procesos biotecnológicos',6,'obligatoria',3,2,NULL,7);
 INSERT INTO `asignatura` VALUES (83,'Técnicas instrumentales avanzadas',4.5,'obligatoria',3,2,NULL,7);
 INSERT INTO `asignatura` VALUES (84,'Fisica Teorica',7,'obligatoria',3,3,NULL,7);
+INSERT INTO `asignatura` VALUES (85,'Gestion',5,'obligatoria',3,3,NULL,7);
 /*!40000 ALTER TABLE `asignatura` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -399,4 +400,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-07-14 14:33:34
+-- Dump completed on 2023-07-14 16:29:22
