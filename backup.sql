@@ -196,7 +196,7 @@ INSERT INTO `asignatura` VALUES (80,'Biotecnología vegetal',6,'obligatoria',3,2
 INSERT INTO `asignatura` VALUES (81,'Genómica y proteómica',4.5,'obligatoria',3,2,NULL,7);
 INSERT INTO `asignatura` VALUES (82,'Procesos biotecnológicos',6,'obligatoria',3,2,NULL,7);
 INSERT INTO `asignatura` VALUES (83,'Técnicas instrumentales avanzadas',4.5,'obligatoria',3,2,NULL,7);
-INSERT INTO `asignatura` VALUES (84,'Fisica de particulas',6,'obligatoria',3,2,3,7);
+INSERT INTO `asignatura` VALUES (84,'Fisica Teorica',7,'obligatoria',3,3,NULL,7);
 /*!40000 ALTER TABLE `asignatura` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -399,4 +399,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2023-07-05 12:56:47
+-- Dump completed on 2023-07-14 14:33:34
